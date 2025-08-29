@@ -28,7 +28,7 @@ async function fetchWikipediaContent(url: string) {
 }
 
 // Scrape world events from a Wikipedia year page
-function scrapeWorldEvents(html: string, year: number): string[] {
+function scrapeWorldEvents(html: string): string[] {
   const $ = cheerio.load(html);
   const events: string[] = [];
   
@@ -107,7 +107,6 @@ export async function GET(request: Request) {
     return NextResponse.json({ message: `Invalid year. Please provide a year between 1920 and ${currentYear}.` }, { status: 400 });
   }
 
-  const timelineData: TimelineEvent[] = [];
   const years = Array.from({ length: currentYear - birthYear + 1 }, (_, i) => birthYear + i);
 
   // Process all years in parallel for better performance
@@ -119,7 +118,7 @@ export async function GET(request: Request) {
       fetchTopMovie(year),
     ]);
 
-    const worldEvents = worldEventsHtml ? scrapeWorldEvents(worldEventsHtml, year) : [];
+    const worldEvents = worldEventsHtml ? scrapeWorldEvents(worldEventsHtml) : [];
     const topSong = topSongHtml ? scrapeTopSong(topSongHtml) : null;
 
     return {

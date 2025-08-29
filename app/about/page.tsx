@@ -22,7 +22,7 @@ export default function AboutPage() {
         </p>
         <ul>
           <li>Pivotal world events that defined the year.</li>
-          <li>The number one movie at the box office that captured the world's imagination.</li>
+          <li>The number one movie at the box office that captured the world&apos;s imagination.</li>
           <li>The chart-topping song that became the soundtrack of that year.</li>
         </ul>
         <p>

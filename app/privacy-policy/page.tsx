@@ -14,7 +14,7 @@ export default function PrivacyPolicyPage() {
         
         <h2 className="text-2xl font-bold text-brand-dark mt-8">Introduction</h2>
         <p>
-          Historical Me ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and disclose information about you when you use our website.
+          Historical Me (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and disclose information about you when you use our website.
         </p>
 
         <h2 className="text-2xl font-bold text-brand-dark mt-8">Information We Collect</h2>
@@ -39,7 +39,7 @@ export default function PrivacyPolicyPage() {
 
         <h2 className="text-2xl font-bold text-brand-dark mt-8">Third-Party Services</h2>
         <p>
-          This website may use third-party advertising services like Google AdSense to display advertisements. These services may use cookies to serve ads based on a user's prior visits to this and other websites. You can opt out of personalized advertising by visiting Google's Ads Settings.
+          This website may use third-party advertising services like Google AdSense to display advertisements. These services may use cookies to serve ads based on a user&apos;s prior visits to this and other websites. You can opt out of personalized advertising by visiting Google&apos;s Ads Settings.
         </p>
 
         <h2 className="text-2xl font-bold text-brand-dark mt-8">Data Security</h2>

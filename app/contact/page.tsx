@@ -11,7 +11,7 @@ export default function ContactPage() {
       <h1 className="text-4xl font-bold text-brand-dark mb-6">Contact Us</h1>
       <div className="prose lg:prose-xl text-slate-700">
         <p>
-          We'd love to hear from you! Whether you have a question, feedback, or a suggestion, please feel free to reach out.
+          We&apos;d love to hear from you! Whether you have a question, feedback, or a suggestion, please feel free to reach out.
         </p>
         <p>
           For all inquiries, you can contact us via email. We do our best to respond to all messages within 48 hours.

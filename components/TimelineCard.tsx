@@ -59,7 +59,7 @@ const TimelineCard = ({ item }: TimelineCardProps) => {
             #1 Song of the Year
           </h4>
           <p className="text-slate-600">
-            <span className="font-medium text-slate-800">"{item.topSong.title}"</span> by {item.topSong.artist}
+            <span className="font-medium text-slate-800">&quot;{item.topSong.title}&quot;</span> by {item.topSong.artist}
           </p>
         </div>
       )}

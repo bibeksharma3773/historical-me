@@ -1,5 +1,4 @@
 // --- FILE: components/SocialShare.tsx ---
-import { Twitter, Facebook } from 'lucide-react'; // Using lucide-react for icons
 
 interface SocialShareProps {
   birthYear: string;

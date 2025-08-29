@@ -6,7 +6,7 @@ const Hero = () => {
         Your Life in History
       </h1>
       <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
-        Discover the world's story, woven with yours. Enter your birth year to generate a personalized timeline of historical and cultural events.
+        Discover the world&apos;s story, woven with yours. Enter your birth year to generate a personalized timeline of historical and cultural events.
       </p>
     </div>
   );
